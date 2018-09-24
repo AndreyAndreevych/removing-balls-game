@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="start-page">
+		<div class="rules">
+			<h4>правила игры</h4>
+			<p>У игрока есть 60 секунд на уничтожение шариков. Чем больше шар - тем больше очков игрок за него получит. При промахе отнимается одно очко.</p>
+			<h3>Ваше имя:</h3>
+			<input type="text" id="input-name" placeholder="Введите имя"><br><br>
+			<input type="submit" id="subm" value="Начать игру" onclick="display(), go()">
+		</div>
+	</div>
+	<div id="game-page">
+		<div class="header">
+			<ul>
+				<li>Времени осталось: <span id="time">60</span></li>
+				<li>Попаданий: <span id="hit">0</span></li>
+				<li>Промахов: <span id="miss">0</span></li>
+				<li>Очков: <span id="point">0</span></li>
+			</ul>
+		</div>
+	</div>
+	<div id="result-page">
+		<div class="result">
+			<h4>рузультат</h4>
+			<h3>Игрок: <span id="user-name"></span></h3>
+			<br>
+			<p>Попаданий: <span id="result-hit"></span></p>
+			<p>Промахов: <span id="result-miss"></span></p>
+			<p>Очков: <span id="result-point"></span></p>
+			<input type="submit" id="subm-rep" value="Попробовать еще" onclick="display2()">
+		</div>
+	</div>
+	<script src="js/my-js.js"></script>
+</body>	
+</html>

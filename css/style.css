@@ -1,0 +1,105 @@
+#start-page {
+	background: url(pic/xperia_z3+_aquawall.jpg) no-repeat center;
+	width: 100%;
+	height: 642px;
+	padding-top: 15px;
+	display: block;
+}
+
+#game-page {
+	display: none;
+	background: url(pic/siniy_fon_sploshnoy_svetlyy_65833_2048x1152.jpg) no-repeat center;
+	width: 100%;
+	height: 657px;
+}
+
+.header {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header ul {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.header ul li {
+	color: red;
+	font-size: 30px;
+	display: block;
+	text-decoration: none;
+}
+
+#result-page {
+	width: 100%;
+	height: 657px;
+	background: url(pic/500289_fon_oblaka_goluboj-cvet_1920x1080_.jpg) no-repeat center;
+	position: relative;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.result {
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 500px;
+	border: 2px solid black;
+	background: url(pic/0174-61.jpg) no-repeat center;
+	text-align: center;
+}
+
+.result h4 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 40px;
+	font-style: italic;
+}
+
+.result h3 {
+	font-weight: bold;
+	font-size: 25px;
+	font-style: italic;
+}
+
+.result p {
+	font-weight: bold;
+	font-size: 24px;
+	font-style: italic;
+}
+
+.rules {
+	width: 650px;
+	height: 400px;
+	border: 2px solid black;
+	margin-left: 15px;
+	border-radius: 0 0 400px 0;
+	text-align: center;
+}
+
+.rules h4 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+	margin-right: 150px;
+}
+
+.rules p {
+	width: 250px;
+	font-size: 18px;
+	margin-left: 125px;
+}
+
+.rules h3 {
+	margin-right: 150px;
+}
+
+#input-name {
+	margin-right: 150px;
+}
+
+#subm {
+	margin-right: 150px;
+}
