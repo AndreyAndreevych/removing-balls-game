@@ -42,7 +42,7 @@ function createCircle () {
 	cr.style.background = 'url(img/' + getRandom(1, 5) + '.png) no-repeat center';
 	cr.style.borderRadius = 50 + '%';
 	cr.style.position = 'absolute';
-	cr.style.top = getRandom(0, window.innerHeight - 50) + 'px';
+	cr.style.top = getRandom(34, window.innerHeight - 50) + 'px';
 	cr.style.left = getRandom(0, window.innerWidth - 50) + 'px';
 	cr.className = 'circle';
 	cr.addEventListener('click', clicked);
